@@ -1,2 +1,2 @@
 # SYKOM_projekt
-Projekt dotyczący tworzenia układów SoC z peryferiami wytworzonymi przez siebie i emulowanymi przez spersonalizowany program QEMU oraz testowanie tego systemu z wykorzystaniem tworzonej dla tego środowiska dystrybucji systemu Linux i odpowiednich sprzętowi sterowników systemowych. 
+Implementacja modułu realizującego operację wyznaczania N'tej liczby pierwszej (numer podawany przez rejestr A) z możliwością odczytania stanu automatu (poprzez odczyt rejestru S), gdzie znaleziona zadana N'ta liczba pierwsza dostępna jest w rejestrze W. Implementacja modułu jądra systemu Linux komunikującego moduł w Verilog z aplikacją użytkownika oraz aplikacja użytkownika testująca poprawność działania systemu.
